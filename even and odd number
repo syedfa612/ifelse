@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Evenorodd 
+{
+    public static void main(String args[])
+    {
+      Scanner sc = new Scanner(System.in);
+      System.out.print("Enter the Number to validate:");
+      int number;
+      number = sc.nextInt();
+      sc.close();
+
+      if(number%2==0)
+      {
+        System.out.println("It is an Even number.");
+      }
+      else{
+        System.out.println("It is an odd number");
+      }
+
+    }
+}

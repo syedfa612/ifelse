@@ -43,3 +43,36 @@ public class Positive_and_Negative {
 
     }
 }
+
+// Grading system for student marks
+import java.util.Scanner;
+public class Result {
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the scores of student scored:");
+        int scores;
+        scores=sc.nextInt();
+        sc.close();
+        if(scores>=80 && scores<100)
+        {
+            System.out.println("A");
+
+        }
+        else if(scores>=60 && scores<80)
+        {
+            System.out.println("B");
+        }
+        else if(scores>=35 && scores<60)
+        {
+            System.out.println("C");
+        }
+        else
+        {
+            System.out.println("Sorry You are Failed, Better Luck next time.");
+        }
+
+    }
+    
+}
+

@@ -19,3 +19,27 @@ public class Evenorodd
 
     }
 }
+
+// Program to check wether the entered number is Negative or positive
+
+import java.util.Scanner;
+public class Positive_and_Negative {
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the Number to check wether it is positive and Negative :");
+        int number;
+        number=sc.nextInt();
+        sc.close();
+        if(number<0)
+        {
+            System.out.println("It is an negative number");
+        }
+        else
+        {
+            System.out.println("It is an Positive number");
+        }
+        
+
+    }
+}
